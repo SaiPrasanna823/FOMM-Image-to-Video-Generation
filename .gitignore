@@ -1,0 +1,27 @@
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Local database
+user.db
+*.sqlite
+*.sqlite3
+
+# Passwords and secret keys
+.env
+.env.*
+
+# Large model checkpoints
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Windows temporary files
+Thumbs.db
